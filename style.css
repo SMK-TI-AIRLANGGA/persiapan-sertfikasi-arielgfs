@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #0F2854;
+  background: linear-gradient(90deg, rgba(15, 40, 84, 1) 0%, rgba(27, 61, 105, 1) 50%, rgba(15, 40, 84, 1) 100%);
+  color: #BDE8F5;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  
+}
+li, a, button {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    right: 3px;
+    color: #BDE8F5;
+    text-shadow: 0 0 0 0;
+    transition: all 0.4s ease 0s;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #ccebf4;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #9aedcc, 0 0 30px #b1f89d, 0 0 40px #c4ffb4, 0 0 55px #b7ffa4, 0 0 75px #bbffa8;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img {
+  padding: 70px;
+  background-image: url('libruru.jpg');
+  color: #cccccc;
+  
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  
+  
+}
+
+.bg-img-2 {
+  padding: 100px;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: all 0.4s ease 0s;
+  max-width: 850px;
+  margin-left: 12%;
+  box-shadow: 0 0 0 0;
+}
+
+.bg-img-2:hover {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #fff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: all 0.4s ease 0s;
+
+}
+
+.card img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 182px;
+    max-height: 277px;
+}
+
+.card h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.card p {
+    margin: 5px 0 15px;
+    color: #777;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.card button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #357ab8;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 250px;
+}
+
+footer {
+  font-family: Arial, sans-serif;
+}

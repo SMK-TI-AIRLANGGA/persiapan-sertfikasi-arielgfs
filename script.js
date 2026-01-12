@@ -32,7 +32,7 @@ books.forEach((book, index) => {
         <img src="${book.gambar}" alt="${book.judul}">
         <h3>${book.judul}</h3>
         <p>Penulis: ${book.penulis}</p>
-        <button onclick="pinjamBuku(${index})">Pinjam</button>
+        <button onclick="pinjamBuku(${index})">Detail</button>
     `;
 
     container.appendChild(card);
@@ -40,7 +40,7 @@ books.forEach((book, index) => {
 
 
 
-function pinjamBuku(index) {
+    function pinjamBuku(index) {
     books[index].dipinjam = true;
-    alert(`${books[index].judul} berhasil dipinjam`);
+    ;
 }
